@@ -1,5 +1,6 @@
 ---
 - name: Installing Apache MSI
+  hosts: Ammar
 
   tasks:
     - name: Download the Apache installer
