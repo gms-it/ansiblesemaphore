@@ -1,4 +1,5 @@
 - name: Search-only, return list of updates found (if any), log to c:\ansible_wu.txt
+  hosts: win
   win_updates:
     category_names:
      -SecurityUpdates
